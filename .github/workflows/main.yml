@@ -48,7 +48,11 @@ jobs:
 
           git commit -am "GH ACTION Headlines $(date)"
 
+<<<<<<< HEAD
           git push origin data_folder
+=======
+          git push origin main 
+>>>>>>> bae22761c5c865dc6e55580a45f3df234c952ba9
 
         env:
           REPO_KEY: ${{secrets.GITHUB_TOKEN}}
