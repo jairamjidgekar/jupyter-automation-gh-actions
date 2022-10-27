@@ -48,7 +48,7 @@ jobs:
 
           git commit -am "GH ACTION Headlines $(date)"
 
-          git push origin main
+          git push origin main/.github/workflows/
 
         env:
           REPO_KEY: ${{secrets.GITHUB_TOKEN}}
